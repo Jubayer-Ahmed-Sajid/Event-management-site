@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "name": "Conferences and Seminars",
+      "image": "https://i.ibb.co/Jvq4FvB/microphone-2832926-1280.jpg",
+      "price": "$899 per ticket",
+      "description": "Join thought leaders and innovators at our annual tech summit. Explore the latest trends in technology and network with industry experts."
+    },
+    {
+      "id": "2",
+      "name": "Trade Shows and Expos",
+      "image": "https://i.ibb.co/hRP90WB/raimond-klavins-to-Z1s-N6-I6-U-unsplash.jpg",
+      "price": "Free Entry",
+      "description": "Showcase your products and services to a diverse audience. Connect with potential customers and partners at our premier expo event."
+    },
+    {
+      "id": "3",
+      "name": "Team Building Workshops",
+      "image": "https://i.ibb.co/H4cqCh9/kenny-eliason-1-a-A2-Fadydc-unsplash.jpg",
+      "price": "$499 per participant",
+      "description": "Strengthen your team's bonds through fun and challenging activities in a serene retreat setting. Boost morale and productivity!"
+    },
+    {
+      "id": "4",
+      "name": "Product Launches",
+      "image": "https://i.ibb.co/Bsj3M8s/pablo-heimplatz-ZODc-Bk-Eohk8-unsplash.jpg",
+      "price": "Custom Pricing",
+      "description": "Make a splash with your new product launch. Our gala event offers the perfect platform to unveil your innovation."
+    },
+    {
+      "id": "5",
+      "name": "Corporate Meetings",
+      "image": "https://i.ibb.co/k5nfJWC/people-1979261-1280.jpg",
+      "price": "$1,199 per delegate",
+      "description": "An exclusive gathering of top executives. Discuss industry trends, strategies, and network with fellow leaders."
+    },
+    {
+      "id": "6",
+      "name": "Award Ceremonies",
+      "image": "https://i.ibb.co/VpTwHNR/male-business-executive-receiving-award.jpg",
+      "price": "$129 per ticket",
+      "description": "Celebrate outstanding achievements in style. Join us for an elegant evening of recognition and inspiration."
+    }
+  ]
+  
