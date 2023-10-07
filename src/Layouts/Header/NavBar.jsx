@@ -1,6 +1,21 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
+import auth from "../../Firebase.config";
+
 
 const NavBar = () => {
+    const { user, logOut } = useContext(AuthContext);
+    const handleLogout = () => {
+        logOut(auth)
+            .then(() => {
+                console.log("successfully logged out")
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
+    console.log(user)
     const navLink = <>
         <li>
             <NavLink to='/'>Home</NavLink>
@@ -27,12 +42,38 @@ const NavBar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                   {navLink}
+                    {navLink}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end items-center">
+
+                {
+                    user ?
+                        <div className="flex items-center">
+                            <h2>{user.displayName}</h2>
+
+                            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={user.photoURL} />
+                                </div>
+                            </label>
+                            <button onClick={handleLogout} className="btn btn-primary">LogOut</button>
+                        </div> :
+                        <div className="flex gap-6 items-center">
+                            <label className=" h-16 rounded-full avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://i.ibb.co/Xpv6C0Z/1000-F-332596535-l-Ad-Lhf6-Kzb-W6-PWXBWe-IFTov-Tii1drkb-T.jpg" />
+                                </div>
+                            </label>
+                            <Link to="/login">
+                                <button className="btn btn-primary">Login</button>
+                            </Link>
+                        </div>
+
+                }
             </div>
+
+
         </div>
     );
 };
