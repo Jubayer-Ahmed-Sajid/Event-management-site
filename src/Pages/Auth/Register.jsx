@@ -11,6 +11,7 @@ const Register = () => {
     const handleGoogleSignIn = () => {
         createWithUserGoogle()
             .then((result) => {
+               
                 console.log(result.user)
             })
             .catch(error => {
@@ -25,17 +26,18 @@ const Register = () => {
         const url = e.target.url.value;
         console.log(name, email, password, url)
         createUser(email, password, url, name)
-        updateProfile(auth.currentUser, {
-            displayName: name,
-            photoURL: url
-        })
             .then(() => {
-                console.log('profile updated')
-            })
-            .catch((error) => {
-                console.error(error)
-            })
-            .then(() => {
+                const user = auth.currentUser;
+                updateProfile(user,{
+                displayName:name,
+                photoURL:url
+              })
+                    .then(() => {
+                        return user.reload();
+                    })
+                    .catch((error) => {
+                        console.error(error)
+                    })
 
                 navigate('/')
 

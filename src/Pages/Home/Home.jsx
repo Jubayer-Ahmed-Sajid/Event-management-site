@@ -1,11 +1,12 @@
 import Events from "../../Components/Events";
 import Banner from "../../Layouts/Header/Banner/Banner";
+import About from "../About/About";
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <h2>This is home</h2>
+            <About></About>
             <Events></Events>
         </div>
     );
