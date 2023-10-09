@@ -15,6 +15,7 @@ import AuthProvider from "./AuthProvider/AuthProvider";
 import PrivateRoute from "./Route/PrivateRoute/PrivateRoute";
 import EventDetails from "./Route/PrivateRoute/EventDetails";
 import Contact from "./Pages/Contact/Contact";
+import Gallery from "./Pages/Gallery/gallery";
 
 const router = createBrowserRouter([
   {
@@ -34,8 +35,8 @@ const router = createBrowserRouter([
         element: <Login></Login>
       },
       {
-        path:'/featured',
-        element:<PrivateRoute></PrivateRoute>
+        path:'/gallery',
+        element:<PrivateRoute><Gallery></Gallery></PrivateRoute>
       },
       {
         path:'/event/:id',

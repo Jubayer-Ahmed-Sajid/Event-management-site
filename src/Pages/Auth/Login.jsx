@@ -1,20 +1,41 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
+import Swal from "sweetalert2";
 
 const Login = () => {
+    const navigate = useNavigate();
+    const location =useLocation();
+    console.log(location.state)
+
     const {userLogin}=useContext(AuthContext)
     const handleSignIn =e => {
         e.preventDefault()
-        const email = e.target.email.value;
-        const password = e.target.password.value;
+        const info = new FormData(e.currentTarget);
+        const email = info.get('email')
+        const password = info.get('password')
+        // const password = e.target.password.value;
         userLogin(email,password)
-        .then(result => {
-            console.log(result.user)
+        .then(() => {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Successfully logged in',
+                showConfirmButton: false,
+                timer: 2500
+            })
+            navigate(location?.state ? location.state : '/');
         })
         .catch(error => {
             console.error(error)
+            return Swal.fire({
+                position: 'top-end',
+                icon: 'error',
+                title: error.message,
+                showConfirmButton: false,
+                timer: 2500
+            })
         })
     }
     return (
