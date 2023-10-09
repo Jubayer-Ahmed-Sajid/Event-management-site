@@ -1,45 +1,50 @@
 [
-    {
-      "id": "1",
-      "name": "Conferences and Seminars",
-      "image": "https://i.ibb.co/Jvq4FvB/microphone-2832926-1280.jpg",
-      "price": "$899 per ticket",
-      "description": "Join thought leaders and innovators at our annual tech summit. Explore the latest trends in technology and network with industry experts."
-    },
-    {
-      "id": "2",
-      "name": "Trade Shows and Expos",
-      "image": "https://i.ibb.co/hRP90WB/raimond-klavins-to-Z1s-N6-I6-U-unsplash.jpg",
-      "price": "Free Entry",
-      "description": "Showcase your products and services to a diverse audience. Connect with potential customers and partners at our premier expo event."
-    },
-    {
-      "id": "3",
-      "name": "Team Building Workshops",
-      "image": "https://i.ibb.co/H4cqCh9/kenny-eliason-1-a-A2-Fadydc-unsplash.jpg",
-      "price": "$499 per participant",
-      "description": "Strengthen your team's bonds through fun and challenging activities in a serene retreat setting. Boost morale and productivity!"
-    },
-    {
-      "id": "4",
-      "name": "Product Launches",
-      "image": "https://i.ibb.co/Bsj3M8s/pablo-heimplatz-ZODc-Bk-Eohk8-unsplash.jpg",
-      "price": "Custom Pricing",
-      "description": "Make a splash with your new product launch. Our gala event offers the perfect platform to unveil your innovation."
-    },
-    {
-      "id": "5",
-      "name": "Corporate Meetings",
-      "image": "https://i.ibb.co/k5nfJWC/people-1979261-1280.jpg",
-      "price": "$1,199 per delegate",
-      "description": "An exclusive gathering of top executives. Discuss industry trends, strategies, and network with fellow leaders."
-    },
-    {
-      "id": "6",
-      "name": "Award Ceremonies",
-      "image": "https://i.ibb.co/VpTwHNR/male-business-executive-receiving-award.jpg",
-      "price": "$129 per ticket",
-      "description": "Celebrate outstanding achievements in style. Join us for an elegant evening of recognition and inspiration."
-    }
-  ]
-  
+  {
+    "id": "1",
+    "name": "Conferences and Seminars",
+    "image": "https://i.ibb.co/Jvq4FvB/microphone-2832926-1280.jpg",
+    "price": "$899 per ticket",
+    "description": "Join thought leaders and innovators at our annual tech summit. Explore the latest trends in technology and network with industry experts.",
+    "detailDescription": "Our Conferences and Seminars provide a platform for you to connect, learn, and grow. Dive deep into the world of technology and innovation as you join thought leaders and innovators at our annual tech summit. Our conference is designed to keep you informed about the latest trends, insights, and advancements in the tech industry. Network with industry experts, engage in thought-provoking discussions, and gain valuable knowledge that will drive your business forward. With keynote speakers, breakout sessions, and ample opportunities to connect with your peers, this event promises to be a valuable experience. Don't miss out on this opportunity to expand your horizons and stay at the forefront of technology."
+  },
+  {
+    "id": "2",
+    "name": "Trade Shows and Expos",
+    "image": "https://i.ibb.co/hRP90WB/raimond-klavins-to-Z1s-N6-I6-U-unsplash.jpg",
+    "price": "Free Entry",
+    "description": "Showcase your products and services to a diverse audience. Connect with potential customers and partners at our premier expo event.",
+    "detailDescription": "Our Trade Shows and Expos are the perfect platform for businesses to showcase their products and services. Whether you're a startup looking for exposure or an established company aiming to reach a wider audience, our expo event offers the ideal opportunity. With booth spaces, product demonstrations, and networking opportunities, you can connect with potential customers and partners in a dynamic environment. It's a chance to make meaningful connections, generate leads, and explore potential collaborations. Best of all, entry is free, making it accessible to everyone. Join us at our premier expo event and take your business to the next level."
+  },
+  {
+    "id": "3",
+    "name": "Team Building Workshops",
+    "image": "https://i.ibb.co/H4cqCh9/kenny-eliason-1-a-A2-Fadydc-unsplash.jpg",
+    "price": "$499 per participant",
+    "description": "Strengthen your team's bonds through fun and challenging activities in a serene retreat setting. Boost morale and productivity!",
+    "detailDescription": "Our Team Building Workshops are designed to enhance teamwork, communication, and collaboration within your organization. Take your team out of the office and into a serene retreat setting where you'll engage in fun and challenging activities. Our workshops are carefully crafted to strengthen your team's bonds, boost morale, and improve overall productivity. From outdoor adventures to leadership training and team bonding exercises, we offer a range of experiences that cater to your team's needs. Invest in your team's success and watch as they become a more cohesive and effective unit."
+  },
+  {
+    "id": "4",
+    "name": "Product Launches",
+    "image": "https://i.ibb.co/Bsj3M8s/pablo-heimplatz-ZODc-Bk-Eohk8-unsplash.jpg",
+    "price": "Custom Pricing",
+    "description": "Make a splash with your new product launch. Our gala event offers the perfect platform to unveil your innovation.",
+    "detailDescription": "Launch your product in style with our Product Launches service. We provide a gala event experience that offers the perfect platform to unveil your innovation to the world. Whether you're introducing a groundbreaking tech gadget or a revolutionary consumer product, our custom pricing ensures that you get the services and support you need. Our team of event planners, venue experts, and marketing specialists will work closely with you to create a memorable launch event that captures attention and generates buzz. Make a splash in the market with our Product Launches service."
+  },
+  {
+    "id": "5",
+    "name": "Corporate Meetings",
+    "image": "https://i.ibb.co/k5nfJWC/people-1979261-1280.jpg",
+    "price": "$1,199 per delegate",
+    "description": "An exclusive gathering of top executives. Discuss industry trends, strategies, and network with fellow leaders.",
+    "detailDescription": "Our Corporate Meetings bring together top executives for an exclusive gathering. Join us to discuss industry trends, strategies, and network with fellow leaders in your field. Our meetings feature keynote presentations from industry experts, roundtable discussions, and opportunities for strategic partnerships. We provide a platform for you to exchange ideas, gain insights, and foster collaborations that can drive your organization's success. Invest in your professional growth and be part of this prestigious event."
+  },
+  {
+    "id": "6",
+    "name": "Award Ceremonies",
+    "image": "https://i.ibb.co/VpTwHNR/male-business-executive-receiving-award.jpg",
+    "price": "$129 per ticket",
+    "description": "Celebrate outstanding achievements in style. Join us for an elegant evening of recognition and inspiration.",
+    "detailDescription": "Celebrate outstanding achievements with our Award Ceremonies. Join us for an elegant evening of recognition and inspiration. Our ceremonies feature celebrity hosts, live entertainment, and gourmet dining. It's a chance to honor excellence and celebrate the accomplishments of individuals and organizations. Whether you're receiving an award or attending as a guest, our ceremonies promise a memorable experience. Join us in recognizing and celebrating outstanding achievements in style."
+  }
+]
