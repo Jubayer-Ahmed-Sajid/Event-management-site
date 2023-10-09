@@ -30,11 +30,16 @@ const NavBar = () => {
             <NavLink to='/login'>Login</NavLink>
         </li>
         <li>
-            <NavLink to='/about'>About Us</NavLink>
+            <NavLink to='/featured'>Featured</NavLink>
+        </li>
+        <li>
+            <NavLink  to="/contact">
+                Contact Us
+            </NavLink>
         </li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-transparent ">
             <div className="navbar-start">
                 <div>
                     <img src="https://i.ibb.co/VjpTYYY/5e3m-Fk-Logo-Makr.png" alt="" />
@@ -66,7 +71,7 @@ const NavBar = () => {
                                     <img src={user.photoURL} />
                                 </div>
                             </label>
-                            <button onClick={handleLogout} className="btn btn-primary">LogOut</button>
+                            <button onClick={handleLogout} className="btn bg-primary text-secondary">LogOut</button>
                         </div> :
                         <div className="flex gap-6 items-center">
                             <label className=" h-16 rounded-full avatar">
@@ -75,7 +80,7 @@ const NavBar = () => {
                                 </div>
                             </label>
                             <Link to="/login">
-                                <button className="btn btn-primary">Login</button>
+                                <button className="btn bg-primary text-secondary">Login</button>
                             </Link>
                         </div>
 

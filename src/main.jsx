@@ -12,9 +12,9 @@ import Root from "./MainLayout/Root/Root";
 import Register from "./Pages/Auth/Register";
 import Login from "./Pages/Auth/Login";
 import AuthProvider from "./AuthProvider/AuthProvider";
-import About from "./Pages/About/About";
 import PrivateRoute from "./Route/PrivateRoute/PrivateRoute";
 import EventDetails from "./Route/PrivateRoute/EventDetails";
+import Contact from "./Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -34,14 +34,18 @@ const router = createBrowserRouter([
         element: <Login></Login>
       },
       {
-        path:'/about',
-        element:<PrivateRoute><About></About></PrivateRoute>
+        path:'/featured',
+        element:<PrivateRoute></PrivateRoute>
       },
       {
         path:'/event/:id',
         loader:()=>fetch('/events.json'),
         element:<PrivateRoute><EventDetails></EventDetails></PrivateRoute>
         
+      },
+      {
+        path:'/contact',
+        element:<PrivateRoute><Contact></Contact></PrivateRoute>
       }
     ]
   },

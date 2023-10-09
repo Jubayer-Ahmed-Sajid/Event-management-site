@@ -4,9 +4,13 @@ import Footer from "../../Layouts/Footer/Footer";
 
 const Root = () => {
     return (
-        <div className="font-display">
+        <div className="font-display ">
             <div className="max-w-6xl mx-auto">
-            <NavBar></NavBar>
+                <div className="">
+                <NavBar></NavBar>
+
+                </div>
+
             <Outlet></Outlet>
             <Footer></Footer>
             </div>

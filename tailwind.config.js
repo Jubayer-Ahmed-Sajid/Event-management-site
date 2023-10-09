@@ -8,8 +8,13 @@ export default {
     extend: {
       fontFamily:{
         display: "'Montserrat', sans-serif"
-      }
-    },
+      },
+    colors:{
+      primary: '#005d5f',
+      secondary: '#dfe33d',
+      font:'#21252f'
+    }
+      },
     },
     
     
