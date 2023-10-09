@@ -16,11 +16,13 @@ import PrivateRoute from "./Route/PrivateRoute/PrivateRoute";
 import EventDetails from "./Route/PrivateRoute/EventDetails";
 import Contact from "./Pages/Contact/Contact";
 import Gallery from "./Pages/Gallery/gallery";
+import Error from "./Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<Error></Error>,
     children: [
       {
         path: '/',
