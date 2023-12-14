@@ -34,3 +34,15 @@ Welcome to Event Expert! This README.md file provides an overview of the five ke
 - This website boasts a responsive design, ensuring a standard experience across mobile,laptop and other  devices and screen sizes.
 - Whether users access the site on a desktop, tablet, or smartphone, they will enjoy a consistent and visually appealing layout.
 - Mobile users can access all features without compromise.
+
+
+### Used Technology
+
+#### I have used the below technology in this website
+
+-React
+-Tailwind css
+-Daisy UI
+-AOS for animation
+-Firebase
+
