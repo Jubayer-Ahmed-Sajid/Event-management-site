@@ -40,9 +40,9 @@ Welcome to Event Expert! This README.md file provides an overview of the five ke
 
 #### I have used the below technology in this website
 
--React
--Tailwind css
--Daisy UI
--AOS for animation
--Firebase
+- React
+- Tailwind css
+- Daisy UI
+- AOS for animation
+- Firebase
 
