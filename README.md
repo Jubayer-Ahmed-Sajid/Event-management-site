@@ -37,12 +37,9 @@ Welcome to Event Expert! This README.md file provides an overview of the five ke
 
 
 ### Used Technology
-
-#### I have used the below technology in this website
-
-- React
-- Tailwind css
-- Daisy UI
-- AOS for animation
-- Firebase
+- React.
+- Tailwind css.
+- DaisyUi.
+- AOS for animation.
+- Firebase.
 
